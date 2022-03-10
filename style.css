@@ -1,0 +1,65 @@
+.website {
+    font-family: 'Roboto'; 
+}
+nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.header-logo {
+    font-size: 24px;
+}
+.background {
+    background-color: #1f2937;
+    color: white;
+}
+.website-awesome {
+    font-size: 48px;
+}
+.more-words {
+    width: 35%;
+}
+.fortnite img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+.words {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+.information-pictures {
+    height: auto;
+    width: 80%;
+    border: 5px solid #1f2937;
+    border-radius: 10px;
+    justify-content: center;
+}
