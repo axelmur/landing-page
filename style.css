@@ -47,19 +47,106 @@ nav {
     font-size: 16px;
     font-weight: bold;
     padding: 5px 20px;
+    border: none;
 }
 .information {
     display: flex;
-    justify-content: space-between;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 1500px;
 }
 .pictures {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
-.information-pictures {
-    height: auto;
-    width: 80%;
+.pictures h2 {
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    align-content: center;
+}
+.information-pictures img {
     border: 5px solid #1f2937;
     border-radius: 10px;
-    justify-content: center;
+    margin-top: 100px;
 }
+.information-pictures p {
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 22px;
+    align-content: center;
+}
+img {
+    width: 250px;
+    height: auto;
+}
+.quote-background {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    background-color: #E5E7EB;
+    flex-grow: 3;
+    width: auto;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+.quote-background div span {
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #E5E7EB;
+}
+.blue-button-first {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-button-first div {
+    background-color: #3883f6;
+    border-radius: 10px;
+}
+.button-bottom {
+    color: white;
+    font-size: 16px;
+}
+.button-bottom span{
+    color: white;
+    font-size: 24px;
+}
+.blue-button-actual {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+}
+.dark-background {
+    background-color: #1f2937;
+    color: white;
+}
+footer span {
+    padding-bottom: 20px;
+}
+/* border: 5px solid #1f2937;
+border-radius: 10px;
+justify-content: center; */
